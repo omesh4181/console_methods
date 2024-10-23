@@ -1,0 +1,26 @@
+console.log("Hello, World!");
+//TABLE
+console.log("TABLE")
+console.table([{name: "omesh", age: 23}, {name: "Jani", age: 23}]);
+// console.assert(2==3, "Assertion failed: 2 is not equal to 3.");
+//GROUP
+console.log("GROUP")
+console.group("10k coder","id");
+console.log("omesh 1");
+console.log("jani 2");
+console.log("navven 3")
+console.log("tirumala 4")
+console.log("sayam 5")
+console.log("malli 6")
+console.groupEnd()
+
+console.group()
+console.error("THis is Error Message")
+console.warn("This is warn Message")
+console.groupEnd()
+
+console.log("Omesh")
+console.groupCollapsed("this is groupcollapsed");
+console.groupEnd()
+console.info("This is an informational message.in info");
+
